@@ -39,6 +39,8 @@ Input: Requires an input file (like Properties.xlsx) containing 50 polyphenols w
 
 Master_QSPR_Script.py: The machine learning analysis script.
 
+Input: Requires an input file (Like "Polyphenols_Weighted_Rounded.csv") containing weighted sombor indices for 50 compounds.
+
 Function: Performs the QSPR modeling.
 
 Features: Splits data using "Golden Seeds", trains models (XGBoost, RF, LR), and generates performance metrics/feature importance scores.
