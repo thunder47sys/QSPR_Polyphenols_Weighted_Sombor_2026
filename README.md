@@ -17,6 +17,8 @@ Polyphenols_Weighted_Rounded.csv: The primary dataset containing the calculated 
 Properties.xlsx: The reference dataset containing the Compound Names, SMILES codes, CID numbers, and the 6 experimental physicochemical properties for all 50 compounds.
 
 2. Results (/02_Results)
+   Golden_Split_Seeds.xlsx: Document recording the specific random seed integers used to optimally split the data for each property.
+   
 S3_Detailed_Predictions_With_Errors.xlsx: Detailed table showing the Actual vs. Predicted values for all compounds (Training & Test sets) across 6 properties. Includes Absolute Error calculations to verify model accuracy.
 
 Table3_Full_28_Indices.xlsx: A complete list of importance scores for all 28 weighted indices, categorized by atomic property.
